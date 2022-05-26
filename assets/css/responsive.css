@@ -1,0 +1,81 @@
+/* Medium Layout: 1280px. */
+@media only screen and (max-width: 1200px) { 
+    .newslattor input {
+        width: 83%;
+    }
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (max-width: 991px) { 
+    #header {
+        background: #222222;
+    }
+    #hero {
+        height: fit-content;
+    }
+    .info_bg {
+        margin-top: 22%;
+        margin-bottom: -115px;
+    }
+    .info_text {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    
+      .logo a {
+        color: #fff;
+    }
+    .logo .head_logo{
+        color: #fff;
+    }
+    .about .col-md-6{
+        width: 100%;
+    }
+    .services .icon-box {
+        padding: 15px;
+    }
+    .newslattor input {
+        width: 83%;
+    }
+    .footer_icon ul li {
+        margin-right: 7px;
+    }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 768px) { 
+    .logo a {
+        color: #fff;
+    }
+
+    #hero{
+        background: none;
+        height: fit-content;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .hero_container{
+        padding: 0;
+    }
+    .info_bg{
+        padding: 15px;
+        margin-top: 20%;
+    }
+    .info_text{
+        margin-left: 0;
+        margin-top: 50px;
+      }
+      .info_img img{
+        height: 100%;
+        width: 100%;
+      }
+      .count-box{
+          margin-bottom: 15px;
+      }
+      .footer_content{
+          margin-bottom: 15px;
+      }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
